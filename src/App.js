@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { StrictMode } from 'react';
+import { Vtubers } from './Vtubers';
+import CardList from './CardList';
+import SearchBox from './SearchBox';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+
+// state가 있어야 페이지를 동적으로 만들 수 있음
+
+class App extends React.Component {
+
+    constructor() {
+        super();
+        this.state = {
+            Vtubers: Vtubers,
+            searchfield: ''
+        };
+    }
+
+    onSearch = (event) => {
+
+        this.setState( {searchfield: event.target.value});
+    }
+
+    render() {
+        const filteredVtubers = this.state.Vtubers.filter(Vtubers => {
+        return Vtubers.name.toLowerCase().includes(this.state.searchfield.toLowerCase())
+            });
+
+        return (
+            <StrictMode>
+                <div className='tc'>
+                <h1>Hololive</h1>
+                <SearchBox searchChange={this.onSearch} />
+                <CardList Vtubers={ filteredVtubers }/>
+                </div>
+            </StrictMode>
+        );
+    }
+};
 
 export default App;
