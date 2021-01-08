@@ -5,9 +5,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(13, 17, 23);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1 {
+  font-style: 'Mango Fresh';
+  font-feature-settings: "nlck";
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
