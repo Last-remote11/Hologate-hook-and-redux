@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Last-remote11/Vtuber_gate/static/css/main.67b808b2.chunk.css",
-    "main.js": "/Last-remote11/Vtuber_gate/static/js/main.20f2c8f7.chunk.js",
-    "main.js.map": "/Last-remote11/Vtuber_gate/static/js/main.20f2c8f7.chunk.js.map",
-    "runtime-main.js": "/Last-remote11/Vtuber_gate/static/js/runtime-main.b54f3fb4.js",
-    "runtime-main.js.map": "/Last-remote11/Vtuber_gate/static/js/runtime-main.b54f3fb4.js.map",
-    "static/css/2.31461e4f.chunk.css": "/Last-remote11/Vtuber_gate/static/css/2.31461e4f.chunk.css",
-    "static/js/2.3d05a448.chunk.js": "/Last-remote11/Vtuber_gate/static/js/2.3d05a448.chunk.js",
-    "static/js/2.3d05a448.chunk.js.map": "/Last-remote11/Vtuber_gate/static/js/2.3d05a448.chunk.js.map",
-    "static/js/3.b5398fb6.chunk.js": "/Last-remote11/Vtuber_gate/static/js/3.b5398fb6.chunk.js",
-    "static/js/3.b5398fb6.chunk.js.map": "/Last-remote11/Vtuber_gate/static/js/3.b5398fb6.chunk.js.map",
-    "index.html": "/Last-remote11/Vtuber_gate/index.html",
-    "static/css/2.31461e4f.chunk.css.map": "/Last-remote11/Vtuber_gate/static/css/2.31461e4f.chunk.css.map",
-    "static/css/main.67b808b2.chunk.css.map": "/Last-remote11/Vtuber_gate/static/css/main.67b808b2.chunk.css.map",
-    "static/js/2.3d05a448.chunk.js.LICENSE.txt": "/Last-remote11/Vtuber_gate/static/js/2.3d05a448.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/Last-remote11/Vtuber_gate/static/media/Sunflower-Medium.15623d4a.woff"
+    "main.css": "/Vtuber_gate/static/css/main.ccd712dc.chunk.css",
+    "main.js": "/Vtuber_gate/static/js/main.20f2c8f7.chunk.js",
+    "main.js.map": "/Vtuber_gate/static/js/main.20f2c8f7.chunk.js.map",
+    "runtime-main.js": "/Vtuber_gate/static/js/runtime-main.3f536e2c.js",
+    "runtime-main.js.map": "/Vtuber_gate/static/js/runtime-main.3f536e2c.js.map",
+    "static/css/2.31461e4f.chunk.css": "/Vtuber_gate/static/css/2.31461e4f.chunk.css",
+    "static/js/2.3d05a448.chunk.js": "/Vtuber_gate/static/js/2.3d05a448.chunk.js",
+    "static/js/2.3d05a448.chunk.js.map": "/Vtuber_gate/static/js/2.3d05a448.chunk.js.map",
+    "static/js/3.b5398fb6.chunk.js": "/Vtuber_gate/static/js/3.b5398fb6.chunk.js",
+    "static/js/3.b5398fb6.chunk.js.map": "/Vtuber_gate/static/js/3.b5398fb6.chunk.js.map",
+    "index.html": "/Vtuber_gate/index.html",
+    "static/css/2.31461e4f.chunk.css.map": "/Vtuber_gate/static/css/2.31461e4f.chunk.css.map",
+    "static/css/main.ccd712dc.chunk.css.map": "/Vtuber_gate/static/css/main.ccd712dc.chunk.css.map",
+    "static/js/2.3d05a448.chunk.js.LICENSE.txt": "/Vtuber_gate/static/js/2.3d05a448.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Vtuber_gate/static/media/Sunflower-Medium.15623d4a.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.b54f3fb4.js",
+    "static/js/runtime-main.3f536e2c.js",
     "static/css/2.31461e4f.chunk.css",
     "static/js/2.3d05a448.chunk.js",
-    "static/css/main.67b808b2.chunk.css",
+    "static/css/main.ccd712dc.chunk.css",
     "static/js/main.20f2c8f7.chunk.js"
   ]
 }
