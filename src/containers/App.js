@@ -3,10 +3,12 @@ import { Vtubers } from '../components/Vtubers';
 import CardList from './CardList';
 import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll';
+import Darkmode from '../components/Darkmode';
+import ErrorBoundary from '../components/ErrorBoundary'
 import './App.css';
 
 
-// state가 있어야 페이지를 동적으로 만들 수 있음
+
 
 class App extends React.Component {
 
@@ -14,9 +16,16 @@ class App extends React.Component {
         super();
         this.state = {
             Vtubers: Vtubers,
-            searchfield: ''
+            searchfield: '',
+            background: 'tc bg-near-black',
         };
     };
+
+    enableDarkMode = () => {
+        this.state.background.includes('bg-near-black') ?
+            this.setState( {background: 'tc bg-white'} ) :
+            this.setState( {background: 'tc bg-near-black'} )
+        }
 
     onSearch = (event) => {
         this.setState( {searchfield: event.target.value});
@@ -32,12 +41,15 @@ class App extends React.Component {
         } else {
         return (
             <StrictMode>
-                <div className='tc'>
-                <h1 className='f1'>Hologate</h1>
-                <SearchBox searchChange={this.onSearch} />
-                <Scroll>
-                 <CardList Vtubers={ filteredVtubers }/>
-                </Scroll>
+                <div className={this.state.background}>
+                    <Darkmode enableDarkMode={this.enableDarkMode}/>
+                    <h1 className='f1'>Hologate</h1>
+                    <SearchBox searchChange={this.onSearch} />
+                    <Scroll>
+                        <ErrorBoundary>
+                        <CardList Vtubers={ filteredVtubers }/>
+                        </ErrorBoundary>
+                    </Scroll>
                 </div>
             </StrictMode>)};
     }
