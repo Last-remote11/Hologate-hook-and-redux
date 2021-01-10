@@ -42,6 +42,7 @@ class App extends React.Component {
         return (
             <StrictMode>
                 <div className={this.state.background}>
+                    <title>Hologate</title>
                     <Darkmode enableDarkMode={this.enableDarkMode}/>
                     <h1 className='f1'>Hologate</h1>
                     <SearchBox searchChange={this.onSearch} />

@@ -12,7 +12,7 @@ const CardList = ( {Vtubers} ) => {
             gen={Vtubers[i].gen} 
             youtube={Vtubers[i].youtube} 
             twitter={Vtubers[i].twitter}/>
-        )
+        );
     })
     
     return (
