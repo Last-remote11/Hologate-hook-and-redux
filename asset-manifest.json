@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Vtuber_gate/static/css/main.ccd712dc.chunk.css",
-    "main.js": "/Vtuber_gate/static/js/main.f029a9c8.chunk.js",
-    "main.js.map": "/Vtuber_gate/static/js/main.f029a9c8.chunk.js.map",
-    "runtime-main.js": "/Vtuber_gate/static/js/runtime-main.3f536e2c.js",
-    "runtime-main.js.map": "/Vtuber_gate/static/js/runtime-main.3f536e2c.js.map",
+    "main.css": "/Vtuber_gate/static/css/main.119f41b2.chunk.css",
+    "main.js": "/Vtuber_gate/static/js/main.6799e25f.chunk.js",
+    "main.js.map": "/Vtuber_gate/static/js/main.6799e25f.chunk.js.map",
+    "runtime-main.js": "/Vtuber_gate/static/js/runtime-main.46c06d6d.js",
+    "runtime-main.js.map": "/Vtuber_gate/static/js/runtime-main.46c06d6d.js.map",
     "static/css/2.31461e4f.chunk.css": "/Vtuber_gate/static/css/2.31461e4f.chunk.css",
-    "static/js/2.3d05a448.chunk.js": "/Vtuber_gate/static/js/2.3d05a448.chunk.js",
-    "static/js/2.3d05a448.chunk.js.map": "/Vtuber_gate/static/js/2.3d05a448.chunk.js.map",
-    "static/js/3.b5398fb6.chunk.js": "/Vtuber_gate/static/js/3.b5398fb6.chunk.js",
-    "static/js/3.b5398fb6.chunk.js.map": "/Vtuber_gate/static/js/3.b5398fb6.chunk.js.map",
+    "static/js/2.2e4d94b5.chunk.js": "/Vtuber_gate/static/js/2.2e4d94b5.chunk.js",
+    "static/js/2.2e4d94b5.chunk.js.map": "/Vtuber_gate/static/js/2.2e4d94b5.chunk.js.map",
+    "static/js/3.bffc6294.chunk.js": "/Vtuber_gate/static/js/3.bffc6294.chunk.js",
+    "static/js/3.bffc6294.chunk.js.map": "/Vtuber_gate/static/js/3.bffc6294.chunk.js.map",
     "index.html": "/Vtuber_gate/index.html",
     "static/css/2.31461e4f.chunk.css.map": "/Vtuber_gate/static/css/2.31461e4f.chunk.css.map",
-    "static/css/main.ccd712dc.chunk.css.map": "/Vtuber_gate/static/css/main.ccd712dc.chunk.css.map",
-    "static/js/2.3d05a448.chunk.js.LICENSE.txt": "/Vtuber_gate/static/js/2.3d05a448.chunk.js.LICENSE.txt",
+    "static/css/main.119f41b2.chunk.css.map": "/Vtuber_gate/static/css/main.119f41b2.chunk.css.map",
+    "static/js/2.2e4d94b5.chunk.js.LICENSE.txt": "/Vtuber_gate/static/js/2.2e4d94b5.chunk.js.LICENSE.txt",
     "static/media/App.css": "/Vtuber_gate/static/media/Sunflower-Medium.15623d4a.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.3f536e2c.js",
+    "static/js/runtime-main.46c06d6d.js",
     "static/css/2.31461e4f.chunk.css",
-    "static/js/2.3d05a448.chunk.js",
-    "static/css/main.ccd712dc.chunk.css",
-    "static/js/main.f029a9c8.chunk.js"
+    "static/js/2.2e4d94b5.chunk.js",
+    "static/css/main.119f41b2.chunk.css",
+    "static/js/main.6799e25f.chunk.js"
   ]
 }
