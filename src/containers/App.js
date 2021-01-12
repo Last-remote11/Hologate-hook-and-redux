@@ -3,9 +3,11 @@ import { Vtubers } from '../components/Vtubers';
 import CardList from './CardList';
 import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll';
+import Sidebar from '../components/Sidebar';
 import Darkmode from '../components/Darkmode';
 import ErrorBoundary from '../components/ErrorBoundary'
 import './App.css';
+import {Helmet} from 'react-helmet';
 
 
 
@@ -17,14 +19,15 @@ class App extends React.Component {
         this.state = {
             Vtubers: Vtubers,
             searchfield: '',
-            background: 'tc bg-near-black',
+            background: 'body { background-color: black; }',
         };
     };
 
+    
     enableDarkMode = () => {
-        this.state.background.includes('bg-near-black') ?
-            this.setState( {background: 'tc bg-white'} ) :
-            this.setState( {background: 'tc bg-near-black'} )
+        this.state.background.includes('white') ?
+            this.setState( {background: 'body { background-color: black; }'} ) :
+            this.setState( {background: 'body { background-color: white; }'} )
         }
 
     onSearch = (event) => {
@@ -41,18 +44,23 @@ class App extends React.Component {
         } else {
         return (
             <StrictMode>
-                <div className={this.state.background}>
+                <div className='tc'>
+                    <Helmet>
+                        <style>{this.state.background}</style>
+                    </Helmet>
                     <title>Hologate</title>
                     <Darkmode enableDarkMode={this.enableDarkMode}/>
                     <h1 className='f1'>Hologate</h1>
                     <SearchBox searchChange={this.onSearch} />
-                    <Scroll>
+                        {/* <Sidebar/>   
+                    <Scroll> */}
                         <ErrorBoundary>
                         <CardList Vtubers={ filteredVtubers }/>
                         </ErrorBoundary>
-                    </Scroll>
+                    {/* </Scroll> */}
                 </div>
-            </StrictMode>)};
+            </StrictMode>
+            )};
     }
 };
 

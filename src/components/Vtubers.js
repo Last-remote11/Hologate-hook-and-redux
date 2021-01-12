@@ -266,7 +266,7 @@ export const Vtubers =[
     {
         id: 34,
         name: 'Takanashi Kiara',
-        img: 'https://pbs.twimg.com/profile_images/1331996663179743232/JSG7y-xM_400x400.jpg',
+        img: 'https://pbs.twimg.com/profile_images/1348532420635553794/bEPHaqcH_400x400.jpg',
         gen: 'EN 1st',
         youtube: 'https://www.youtube.com/channel/UCHsx4Hqa-1ORjQTh9TYDhww',
         twitter: 'https://twitter.com/takanashikiara'
