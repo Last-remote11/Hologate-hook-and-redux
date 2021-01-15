@@ -16,9 +16,9 @@ const CardList = ( {Vtubers} ) => {
     })
     
     return (
-    <React.StrictMode>
+    <div className='fl w-80 pa2'>
         {cardArray}
-    </React.StrictMode>
+    </div>
     );
 }
 

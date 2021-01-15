@@ -52,8 +52,8 @@ class App extends React.Component {
                     <Darkmode enableDarkMode={this.enableDarkMode}/>
                     <h1 className='f1'>Hologate</h1>
                     <SearchBox searchChange={this.onSearch} />
-                        {/* <Sidebar/>   
-                    <Scroll> */}
+                        <Sidebar/>   
+                    {/* <Scroll> */}
                         <ErrorBoundary>
                         <CardList Vtubers={ filteredVtubers }/>
                         </ErrorBoundary>
