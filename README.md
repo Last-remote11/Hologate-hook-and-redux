@@ -1,3 +1,7 @@
+# 홀로라이브 버츄얼 유튜버의 정보를 모아놓(고 싶은) 앱
+
+추가하고싶은것: 사진을 클릭하면 유투브 하이라이트 등이 나오게 하는 기능
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
