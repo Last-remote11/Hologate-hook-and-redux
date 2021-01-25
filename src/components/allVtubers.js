@@ -1,4 +1,4 @@
-export const Vtubers =[
+export const allVtubers =[
     {
         id: 1,
         name: 'Usada Pekora',
