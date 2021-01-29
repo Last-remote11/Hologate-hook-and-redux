@@ -10,8 +10,6 @@ import './App.css';
 import {Helmet} from 'react-helmet';
 
 
-
-
 const App = () => {
 
     // useState(초기값)는 state와 state를 변경시키는 함수를 반환 
