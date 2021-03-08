@@ -1,8 +1,10 @@
-import { CHANGE_SEARCH_FIELD } from './constrants'
+import { CHANGE_SEARCH_FIELD, ENABLE_DARKMODE } from './constants'
 
-export const setSearchField = (text) => {
-    return {
-        action: CHANGE_SEARCH_FIELD,
+export const setSearchField = (text) => ({
+        type: CHANGE_SEARCH_FIELD,
         payload: text
-    }
-}
+    })
+
+export const enableDarkMode = () => ({
+    type: ENABLE_DARKMODE
+})
