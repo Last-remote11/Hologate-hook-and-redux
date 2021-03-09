@@ -16,6 +16,9 @@ const rootReducer = combineReducers({ searchVtubers, enableDarkMode })
 
 // 만약 여러개의 리듀서를 사용한다면 combineReducers를 이용하면 된다
 // thunk는 오브젝트가 아닌 함수를 반환하는 액션을 감시한다.
+
+// 미들웨어는 액션에서 리듀서로 가는 길목에서 존재하여 일한다 보면 됨
+// 예시로는 logger, thunk 가 있다.
 // createStore 의 첫번째 인자는 리듀서, 두번째는 미들웨어
 const store = createStore(rootReducer, applyMiddleware(logger))
 
