@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Hologate/static/css/main.57f312df.chunk.css",
-    "main.js": "/Hologate/static/js/main.a7d251c3.chunk.js",
-    "main.js.map": "/Hologate/static/js/main.a7d251c3.chunk.js.map",
+    "main.css": "/Hologate/static/css/main.db07c7e7.chunk.css",
+    "main.js": "/Hologate/static/js/main.19c82d47.chunk.js",
+    "main.js.map": "/Hologate/static/js/main.19c82d47.chunk.js.map",
     "runtime-main.js": "/Hologate/static/js/runtime-main.3bc531bc.js",
     "runtime-main.js.map": "/Hologate/static/js/runtime-main.3bc531bc.js.map",
     "static/css/2.31461e4f.chunk.css": "/Hologate/static/css/2.31461e4f.chunk.css",
@@ -14,7 +14,7 @@
     "service-worker.js": "/Hologate/service-worker.js",
     "service-worker.js.map": "/Hologate/service-worker.js.map",
     "static/css/2.31461e4f.chunk.css.map": "/Hologate/static/css/2.31461e4f.chunk.css.map",
-    "static/css/main.57f312df.chunk.css.map": "/Hologate/static/css/main.57f312df.chunk.css.map",
+    "static/css/main.db07c7e7.chunk.css.map": "/Hologate/static/css/main.db07c7e7.chunk.css.map",
     "static/js/2.fb53b869.chunk.js.LICENSE.txt": "/Hologate/static/js/2.fb53b869.chunk.js.LICENSE.txt",
     "static/media/App.css": "/Hologate/static/media/Sunflower-Medium.15623d4a.woff"
   },
@@ -22,7 +22,7 @@
     "static/js/runtime-main.3bc531bc.js",
     "static/css/2.31461e4f.chunk.css",
     "static/js/2.fb53b869.chunk.js",
-    "static/css/main.57f312df.chunk.css",
-    "static/js/main.a7d251c3.chunk.js"
+    "static/css/main.db07c7e7.chunk.css",
+    "static/js/main.19c82d47.chunk.js"
   ]
 }
