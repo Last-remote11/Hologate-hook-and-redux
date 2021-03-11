@@ -212,7 +212,7 @@ export const allVtubers =[
         name: 'Himemori Luna',
         img: 'https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_500,f_auto,q_auto/1369026/507383_645387.jpeg',
         gen: 'JP 4th',
-        youtube: '',
+        youtube: 'https://www.youtube.com/channel/UCa9Y57gfeY0Zro_noHRVrnw',
         twitter: 'https://twitter.com/himemoriluna'
     },   
     {
