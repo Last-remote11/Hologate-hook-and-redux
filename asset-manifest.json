@@ -1,26 +1,28 @@
 {
   "files": {
     "main.css": "/Hologate/static/css/main.57f312df.chunk.css",
-    "main.js": "/Hologate/static/js/main.6e9fff15.chunk.js",
-    "main.js.map": "/Hologate/static/js/main.6e9fff15.chunk.js.map",
-    "runtime-main.js": "/Hologate/static/js/runtime-main.0ae7e459.js",
-    "runtime-main.js.map": "/Hologate/static/js/runtime-main.0ae7e459.js.map",
+    "main.js": "/Hologate/static/js/main.a7d251c3.chunk.js",
+    "main.js.map": "/Hologate/static/js/main.a7d251c3.chunk.js.map",
+    "runtime-main.js": "/Hologate/static/js/runtime-main.3bc531bc.js",
+    "runtime-main.js.map": "/Hologate/static/js/runtime-main.3bc531bc.js.map",
     "static/css/2.31461e4f.chunk.css": "/Hologate/static/css/2.31461e4f.chunk.css",
-    "static/js/2.f09e20fd.chunk.js": "/Hologate/static/js/2.f09e20fd.chunk.js",
-    "static/js/2.f09e20fd.chunk.js.map": "/Hologate/static/js/2.f09e20fd.chunk.js.map",
-    "static/js/3.7153de7a.chunk.js": "/Hologate/static/js/3.7153de7a.chunk.js",
-    "static/js/3.7153de7a.chunk.js.map": "/Hologate/static/js/3.7153de7a.chunk.js.map",
+    "static/js/2.fb53b869.chunk.js": "/Hologate/static/js/2.fb53b869.chunk.js",
+    "static/js/2.fb53b869.chunk.js.map": "/Hologate/static/js/2.fb53b869.chunk.js.map",
+    "static/js/3.90cca99e.chunk.js": "/Hologate/static/js/3.90cca99e.chunk.js",
+    "static/js/3.90cca99e.chunk.js.map": "/Hologate/static/js/3.90cca99e.chunk.js.map",
     "index.html": "/Hologate/index.html",
+    "service-worker.js": "/Hologate/service-worker.js",
+    "service-worker.js.map": "/Hologate/service-worker.js.map",
     "static/css/2.31461e4f.chunk.css.map": "/Hologate/static/css/2.31461e4f.chunk.css.map",
     "static/css/main.57f312df.chunk.css.map": "/Hologate/static/css/main.57f312df.chunk.css.map",
-    "static/js/2.f09e20fd.chunk.js.LICENSE.txt": "/Hologate/static/js/2.f09e20fd.chunk.js.LICENSE.txt",
+    "static/js/2.fb53b869.chunk.js.LICENSE.txt": "/Hologate/static/js/2.fb53b869.chunk.js.LICENSE.txt",
     "static/media/App.css": "/Hologate/static/media/Sunflower-Medium.15623d4a.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.0ae7e459.js",
+    "static/js/runtime-main.3bc531bc.js",
     "static/css/2.31461e4f.chunk.css",
-    "static/js/2.f09e20fd.chunk.js",
+    "static/js/2.fb53b869.chunk.js",
     "static/css/main.57f312df.chunk.css",
-    "static/js/main.6e9fff15.chunk.js"
+    "static/js/main.a7d251c3.chunk.js"
   ]
 }
