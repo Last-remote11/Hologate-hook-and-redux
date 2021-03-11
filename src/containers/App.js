@@ -1,4 +1,4 @@
-import React, { StrictMode, useState, useEffect } from 'react';
+import React, { StrictMode, useState } from 'react';
 // import { connect } from 'react-redux'
 import { useSelector, useDispatch } from 'react-redux'
 import { allVtubers } from '../components/allVtubers';
