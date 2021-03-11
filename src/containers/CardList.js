@@ -16,7 +16,7 @@ const CardList = ( {Vtubers} ) => {
     })
     
     return (
-    <div className='fl w-80 pa2'>
+    <div className='fl w-80 pa3'>
         {cardArray}
     </div>
     );

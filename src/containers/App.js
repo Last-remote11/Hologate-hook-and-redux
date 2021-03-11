@@ -77,10 +77,13 @@ const App = () => {
                     <style>{background}</style>
                 </Helmet>
                 <title>Hologate</title>
+
+                <div className='head'>
                 <Darkmode enableDarkMode={() => dispatch(enableDarkMode())}/>
-                {/* dispatch : 변환된 값을 보내줌 */}
                 <h1 className='f1'>Hologate</h1>
                 <SearchBox searchChange={(event) => dispatch(setSearchField(event.target.value))} />
+                </div>
+
                     <Sidebar/>   
                 {/* <Scroll> */}
                     <ErrorBoundary>
