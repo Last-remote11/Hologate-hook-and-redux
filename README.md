@@ -1,5 +1,6 @@
 # 홀로라이브 버츄얼 유튜버의 정보를 모아놓(고 싶은) 앱
 
+PWA
 
 # Getting Started with Create React App
 
